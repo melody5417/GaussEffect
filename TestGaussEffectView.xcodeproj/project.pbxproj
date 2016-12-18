@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		491B1C7F1E027EA800FD5E46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 491B1C7E1E027EA800FD5E46 /* AppDelegate.m */; };
+		491B1C821E027EA800FD5E46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 491B1C811E027EA800FD5E46 /* main.m */; };
+		491B1C851E027EA800FD5E46 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 491B1C841E027EA800FD5E46 /* ViewController.m */; };
+		491B1C871E027EA800FD5E46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 491B1C861E027EA800FD5E46 /* Assets.xcassets */; };
+		491B1C8A1E027EA800FD5E46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491B1C881E027EA800FD5E46 /* Main.storyboard */; };
+		491B1C931E027F3200FD5E46 /* GaussViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 491B1C921E027F3200FD5E46 /* GaussViewController.m */; };
+		491B1C971E0280E400FD5E46 /* GausssWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 491B1C961E0280E400FD5E46 /* GausssWindow.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		491B1C7A1E027EA800FD5E46 /* TestGaussEffectView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestGaussEffectView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		491B1C7D1E027EA800FD5E46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		491B1C7E1E027EA800FD5E46 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		491B1C811E027EA800FD5E46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		491B1C831E027EA800FD5E46 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		491B1C841E027EA800FD5E46 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		491B1C861E027EA800FD5E46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		491B1C891E027EA800FD5E46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		491B1C8B1E027EA800FD5E46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		491B1C911E027F3200FD5E46 /* GaussViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GaussViewController.h; sourceTree = "<group>"; };
+		491B1C921E027F3200FD5E46 /* GaussViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GaussViewController.m; sourceTree = "<group>"; };
+		491B1C941E027F9500FD5E46 /* JTAppKitVersionUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTAppKitVersionUtility.h; sourceTree = "<group>"; };
+		491B1C951E0280E400FD5E46 /* GausssWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GausssWindow.h; sourceTree = "<group>"; };
+		491B1C961E0280E400FD5E46 /* GausssWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GausssWindow.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		491B1C771E027EA800FD5E46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		491B1C711E027EA800FD5E46 = {
+			isa = PBXGroup;
+			children = (
+				491B1C7C1E027EA800FD5E46 /* TestGaussEffectView */,
+				491B1C7B1E027EA800FD5E46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		491B1C7B1E027EA800FD5E46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				491B1C7A1E027EA800FD5E46 /* TestGaussEffectView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		491B1C7C1E027EA800FD5E46 /* TestGaussEffectView */ = {
+			isa = PBXGroup;
+			children = (
+				491B1C941E027F9500FD5E46 /* JTAppKitVersionUtility.h */,
+				491B1C7D1E027EA800FD5E46 /* AppDelegate.h */,
+				491B1C7E1E027EA800FD5E46 /* AppDelegate.m */,
+				491B1C831E027EA800FD5E46 /* ViewController.h */,
+				491B1C841E027EA800FD5E46 /* ViewController.m */,
+				491B1C861E027EA800FD5E46 /* Assets.xcassets */,
+				491B1C881E027EA800FD5E46 /* Main.storyboard */,
+				491B1C8B1E027EA800FD5E46 /* Info.plist */,
+				491B1C801E027EA800FD5E46 /* Supporting Files */,
+				491B1C911E027F3200FD5E46 /* GaussViewController.h */,
+				491B1C921E027F3200FD5E46 /* GaussViewController.m */,
+				491B1C951E0280E400FD5E46 /* GausssWindow.h */,
+				491B1C961E0280E400FD5E46 /* GausssWindow.m */,
+			);
+			path = TestGaussEffectView;
+			sourceTree = "<group>";
+		};
+		491B1C801E027EA800FD5E46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				491B1C811E027EA800FD5E46 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		491B1C791E027EA800FD5E46 /* TestGaussEffectView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 491B1C8E1E027EA800FD5E46 /* Build configuration list for PBXNativeTarget "TestGaussEffectView" */;
+			buildPhases = (
+				491B1C761E027EA800FD5E46 /* Sources */,
+				491B1C771E027EA800FD5E46 /* Frameworks */,
+				491B1C781E027EA800FD5E46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestGaussEffectView;
+			productName = TestGaussEffectView;
+			productReference = 491B1C7A1E027EA800FD5E46 /* TestGaussEffectView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		491B1C721E027EA800FD5E46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Melody5417;
+				TargetAttributes = {
+					491B1C791E027EA800FD5E46 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 491B1C751E027EA800FD5E46 /* Build configuration list for PBXProject "TestGaussEffectView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 491B1C711E027EA800FD5E46;
+			productRefGroup = 491B1C7B1E027EA800FD5E46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				491B1C791E027EA800FD5E46 /* TestGaussEffectView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		491B1C781E027EA800FD5E46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491B1C871E027EA800FD5E46 /* Assets.xcassets in Resources */,
+				491B1C8A1E027EA800FD5E46 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		491B1C761E027EA800FD5E46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491B1C851E027EA800FD5E46 /* ViewController.m in Sources */,
+				491B1C821E027EA800FD5E46 /* main.m in Sources */,
+				491B1C931E027F3200FD5E46 /* GaussViewController.m in Sources */,
+				491B1C7F1E027EA800FD5E46 /* AppDelegate.m in Sources */,
+				491B1C971E0280E400FD5E46 /* GausssWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		491B1C881E027EA800FD5E46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				491B1C891E027EA800FD5E46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		491B1C8C1E027EA800FD5E46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		491B1C8D1E027EA800FD5E46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		491B1C8F1E027EA800FD5E46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TestGaussEffectView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Melody5417..TestGaussEffectView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		491B1C901E027EA800FD5E46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TestGaussEffectView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Melody5417..TestGaussEffectView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		491B1C751E027EA800FD5E46 /* Build configuration list for PBXProject "TestGaussEffectView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				491B1C8C1E027EA800FD5E46 /* Debug */,
+				491B1C8D1E027EA800FD5E46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		491B1C8E1E027EA800FD5E46 /* Build configuration list for PBXNativeTarget "TestGaussEffectView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				491B1C8F1E027EA800FD5E46 /* Debug */,
+				491B1C901E027EA800FD5E46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 491B1C721E027EA800FD5E46 /* Project object */;
+}
